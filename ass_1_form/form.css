@@ -1,0 +1,175 @@
+/* body{
+    text-align: center;
+    margin: auto;
+} */
+h3>a{
+    color: blue;
+
+}
+h1{
+    color: blue;
+    background-image: linear-gradient(to right,#b0fff0, #a6ffa0);
+}
+.main{
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 100px; */
+    background-image: linear-gradient(to right,#b0fff0, #a6ffa0);
+}
+#alert{
+    color: white;
+    background-color: red;
+    padding: 1px 10px;
+    margin-top: 10px;
+
+}
+.pad1{
+    padding-right: 54px;
+}
+.pad2{
+    padding-right: 36px;
+}
+.right>img{
+    height: 300px;
+    /* display: none; */
+}
+/* form{
+    text-align: center;
+    margin: auto;
+} */
+label{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.input{
+    background-color: rgb(241, 255, 239);
+    /* background-color: red !important; */
+    color: black;
+    width: 250px;
+    padding: 4px 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 16px;
+}
+.pad{
+    padding-top: 10px;
+}
+.mar{
+    margin-top: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+table{
+    display: none;
+    margin-top: 40px;
+    background-color: rgb(255, 201, 201);
+
+}
+.legend{
+    width: fit-content;
+}
+table > caption{
+    font-size: 22px;
+    font-weight: bold;
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 10px;
+}
+
+/* CSS */
+.button1 {
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  width: 120px;
+  will-change: transform;
+}
+.button1:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+
+ table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+} 
+th{
+    width: 200px;
+}
+.edit{
+    border: 1px solid black;
+    border-radius: 10%;
+    /* width: 1px; */
+    background-color: rgb(228, 228, 255);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.edit:hover{
+    border-radius: 100%;
+    background-color: rgb(155, 155, 255);
+
+}
+
+.delete{
+    border: 1px solid black;
+    border-radius: 10%;
+    /* width: 1px; */
+    background-color: rgb(9, 215, 53);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.delete:hover{
+    border-radius: 100%;
+    background-color: rgb(145, 255, 169);
+}
+.button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px 10px;
+    background-image: linear-gradient(to right,#b1f69a, #14c007);
+
+    /* background-color: white; */
+    /* color: white; */
+    font-weight: bold;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+#updatebtn{
+    display: none;
+}
+
+.tablebutton{
+    background-color: black;
+    color: white;
+    padding: 4px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tablebutton:hover{
+    background-color: white;
+    color: black;
+}

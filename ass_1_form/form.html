@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A # 1 | Form</title>
+
+    <link rel="stylesheet" href="./form.css">
+    <script src="./form.js" defer></script>
+
+</head>
+<body>
+    <h3><a href="../index.html">Go back to main file</a></h3>
+
+    <h1>Form Assignment</h1>
+    <div class="main">
+
+        <form>
+            <fieldset class="legend">
+                <legend>Enter Employee Data :</legend>
+                
+                
+                <label for="fName">First Name :</label>
+                <input type="text" name="fname" id="fName" placeholder="Enter Your First Name"  required minlength="4" maxlength="10" class="input">
+                <br>
+                <label for="lName">Last Name :</label>
+                <input type="text" name="lname" id="lName" class="mar input" placeholder="Enter Last Name" required minlength="4" maxlength="10">
+                <br>
+                <label for="age" class="pad1">Age :</label>
+                <input type="number" name="age" id="age" class="mar input" placeholder="Enter Your Age" required minlength="2" maxlength="2">
+                <br>
+                <label for="email" class="pad2">Email :</label>
+                <input type="email" name="email" id="email" class="mar input" placeholder="Enter Your Email Address" required>
+                <!-- <p id=""></p> -->
+                <br>
+                <label for="phone">Phone No. :</label>
+                <input type="number" name="phone" id="phone" class="mar input" placeholder="Enter Your Phone Number" required minlength="11">
+                <br>
+
+                <div class="btns">
+
+                <input type="submit" value="Submit Form" class="mar button1" id="submitbtn" onclick="addEmployee()"
+                >
+                <input type="button" value="Update Form" class="mar button1" id="updatebtn" onclick="updateForm()">
+                <!-- <input type="button" value="Submit Form" class="mar button1" onclick="addEmployee()"> -->
+
+                <input type="button" value="Fill Form" class="button1" onclick="fillForm()">
+                <input type="reset" value="Reset Form" class="button" id="reset">
+                </div>
+                
+            </fieldset>
+        </form>
+
+
+        <div class="right">
+            <img src="../photos/form_bg.png" alt="background-image">
+        </div>
+        
+    </div>
+    <div id="alert"></div>
+    <!-- use maxlength and minlength attributes -->
+
+    <table id="table">
+        <caption>Employees Data</caption>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tdForm">
+            <!-- <tr id="tdForm">
+                <td id="tdFname">Umaid</td>
+                <td id="tdLastname">Saeed</td>
+                <td id="tdAge">27</td>
+                <td>umaid123@gmail.com</td>
+                <td>0326-4533943</td>
+            </tr> -->
+        </tbody>
+    </table>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form with Class</title>
+
+    <link rel="stylesheet" href="../bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <script src="./form_es6.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <button class="btn btn-success text-white"><a class="text-white" href="../index.html">to main file</a></button>
+
+
+        <form >
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">First Name : </label>
+              <input type="text" class="form-control" id="fname" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Last Name : </label>
+              <input type="text" class="form-control" id="lname" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Age : </label>
+              <input type="number" class="form-control" id="age" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email : </label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Phone No. : </label>
+              <input type="tel" class="form-control" id="phone" aria-describedby="emailHelp">
+            </div>
+
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button onclick="addEmployee()" class="btn btn-danger">Add employee</button>
+          </form>
+        
+    </div>
+</body>
+</html>
